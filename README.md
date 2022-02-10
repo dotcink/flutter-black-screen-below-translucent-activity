@@ -1,16 +1,17 @@
 # black_screen_below_translucent_activity
 
-A new Flutter project.
+An demo to reproduce a Flutter black screen problem.
 
-## Getting Started
+## Version
+Flutter 2.10.1
 
-This project is a starting point for a Flutter application.
+### Device
+All Android devices likely
 
-A few resources to get you started if this is your first Flutter project:
+### Steps:
+1. Open the demo app(you can use the '[demo.apk](https://github.com/dotcink/flutter-black-screen-below-translucent-activity/blob/main/demo.apk?raw=true)' directly)
+2. Click "Open Translucent Activity" button in the center of the origin Flutter demo screen, then you can see a translucent page opened above the Flutter with title "Translucent"
+3. Move the demo app into background, for 5 seconds if possible
+4. Bring this demo app foreground again, then you can see the below Flutter page BLACK.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/4100215/153442165-4e5be1ee-4eb8-45c3-8de7-9e5d126c0242.mp4
